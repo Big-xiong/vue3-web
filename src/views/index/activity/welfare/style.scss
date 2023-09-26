@@ -1,0 +1,170 @@
+#welfare {
+  text-align: left;
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .top {
+    position: relative;
+    width: 100%;
+    height: 57.3684vw;
+    overflow: hidden;
+    background-size: 100% 100%;
+    background-position: center;
+    &.top-wanqu{
+      background-image: url(./assets/banner-top.jpg);
+    }
+    &.top-other{
+      background-image: url(./assets/banner-top1.png);
+    }
+    .promotion {
+      width: 100%;
+      position: absolute;
+      bottom: 3.1053vw;
+      .promotionMechanism {
+        width: 100%;
+        > img {
+          display: block;
+          width: 24.3158vw;
+          height: 2.4211vw;
+          margin: 0 auto;
+        }
+        > ul {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          margin-top: 3.0526vw;
+          overflow: hidden;
+          li {
+            padding: 1.7895vw 0 1.6842vw 0;
+            text-align: center;
+            float: left;
+            width: 9.4737vw;
+            height: 8.8421vw;
+            border: 0.1053vw solid #ff628d;
+            > div {
+              position: relative;
+              text-align: center;
+              font-size: 1.5789vw;
+              height: 2.6316vw;
+              margin-bottom: 0.5263vw;
+              font-weight: 600;
+              color: rgba(255, 61, 114, 1);
+              &:after {
+                width: 5.2632vw;
+                height: 0.0526vw;
+                background-color: #ff628d;
+                display: block;
+                content: '';
+                position: absolute;
+                bottom: 0;
+                left: 2.1053vw;
+              }
+            }
+            > p {
+              text-align: center;
+              font-size: 0.8421vw;
+              color: rgba(168, 0, 56, 1);
+              margin-bottom: 8px;
+            }
+          }
+          > img {
+            display: block;
+            float: left;
+            width: 1.3158vw;
+            height: 2.3684vw;
+            margin: 3.1579vw 1.3684vw 0 1.3684vw;
+          }
+        }
+      }
+    }
+  }
+  .bottom {
+    padding-top: 3.1053vw;
+    width: 100%;
+    height: 58.4737vw;
+    background-size: 100% 100%;
+    background-position: center;
+    overflow: hidden;
+    background-image: url(./assets/banner.jpg);
+    > img {
+      display: block;
+      width: 23.2632vw;
+      height: 2.4211vw;
+      margin: 0 auto;
+    }
+    .welfare-table {
+      width: 100%;
+      table {
+        width: 63.1579vw;
+        margin: 2.0526vw auto 0;
+
+        tr {
+          color: #ffffff;
+          font-size: 0.8421vw;
+          width: 20%;
+          height: 2.6316vw;
+          line-height: 2.6316vw;
+          text-align: center;
+        }
+        .welfare-title {
+          background-color: #ff628d !important;
+        }
+        tr:nth-child(2n) {
+          background-color: #ffc2d3;
+        }
+        tr:nth-child(2n + 1) {
+          background-color: #ff95b2;
+        }
+      }
+      .tishi {
+        width: 63.1579vw;
+        margin: 1.1053vw auto 0;
+        overflow: hidden;
+        > div {
+          color: #a40633;
+          font-size: 0.7368vw;
+          float: left;
+          > div:first-child {
+            margin-bottom: 0.6316vw;
+          }
+        }
+        .tishi-p {
+          margin-bottom: 0.8vw;
+        }
+      }
+      .rule {
+        width: 63.1579vw;
+        margin: 5.2632vw auto 0;
+        overflow: hidden;
+        > img {
+          display: block;
+          width: 18vw;
+          height: 2.4211vw;
+          margin: 0 auto;
+        }
+        > div {
+          margin-top: 2.5789vw;
+          > p {
+            color: #ff3d72;
+            font-size: 0.7368vw;
+            line-height: 2.1053vw;
+            > span {
+              text-align: center;
+              display: inline-block;
+              width: 0.9474vw;
+              height: 0.9474vw;
+              line-height: 0.9474vw;
+              border-radius: 50%;
+              color: rgba(255, 255, 255, 1);
+              font-size: 0.7368vw;
+              margin-right: 0.9474vw;
+              background-color: #ff3d72;
+            }
+          }
+        }
+      }
+    }
+  }
+}

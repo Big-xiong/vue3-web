@@ -1,0 +1,364 @@
+#interestRate {
+  text-align: left;
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  table{
+    border-collapse: collapse;
+  }
+  input{
+    border: none;
+    outline: none;
+  }
+
+  .top {
+    width: 100%;
+    height: 42.7895vw;
+    background-position: center;
+    background-size: cover;
+    &.top-wanqu{
+      background-image: url(./assets/banner-top.jpg);
+    }
+    &.top-other{
+      background-image: url(./assets/banner-top1.png);
+    }
+  }
+  // 福利升级
+  .welfare {
+    width: 100%;
+    height: 39.3158vw;
+    background-position: center;
+    background-size: 100% 100%;
+    // background-image: url(./assets/bg1.jpg);
+    overflow: hidden;
+    &.welfare-wanqu{
+      background-image: url(./assets/bg1.jpg);
+    }
+    &.welfare-other{
+      background-image: url(./assets/bg2.png);
+    }
+  }
+  .operational {
+    width: 100%;
+    height: 35.3684vw;
+    background-position: center;
+    background-size: 100% 100%;
+    background-image: url(./assets/bg2.jpg);
+  }
+  .grade {
+    padding-top: 6.3158vw;
+    width: 100%;
+    height: 31.5263vw;
+    background-position: center;
+    background-size: 100% 100%;
+    background-image: url(./assets/bg3.jpg);
+    > p {
+      width: 10.5789vw;
+      height: 2.5263vw;
+      margin: 0 auto;
+      font-size: 2.5263vw;
+      font-family: MicrosoftYaHei-Bold;
+      font-weight: bold;
+      color: rgba(80, 76, 168, 1);
+      line-height: 1.3684vw;
+      text-shadow: 0.1579vw 0.2632vw 0.3158vw rgba(0, 0, 0, 0.2);
+    }
+    .gradeList {
+      width: 52.6316vw;
+      margin: 2.5789vw auto 0;
+
+      table {
+        width: 100%;
+        border: 0.0526vw solid #dddddd;
+        position: relative;
+        z-index: 99;
+        top:-30px;
+        background:#fff;
+        tr {
+          width: 100%;
+          display: flex;
+          justify-content: space-around;
+          height: 2.6316vw;
+          line-height: 2.6316vw;
+          border-bottom: 0.0526vw solid #dddddd;
+          th,
+          td {
+            display: flex;
+            justify-content: center;
+            width: 25%;
+            text-align: center;
+          }
+        }
+        > tr:nth-child(2) {
+          td {
+            span {
+              float: left;
+              display: block;
+              width: 1.3684vw;
+              height: 1.7368vw;
+              margin: 0.5263vw 0.5263vw 0 0;
+              background-position: center;
+              background-size: cover;
+              background-image: url(./assets/Grade1.png);
+            }
+          }
+        }
+        > tr:nth-child(3) {
+          td {
+            span {
+              float: left;
+              display: block;
+              width: 1.3684vw;
+              height: 1.7368vw;
+              margin: 0.5263vw 0.5263vw 0 0;
+              background-position: center;
+              background-size: cover;
+              background-image: url(./assets/Grade2.png);
+            }
+          }
+        }
+        > tr:nth-child(4) {
+          td {
+            span {
+              float: left;
+              display: block;
+              width: 1.3684vw;
+              height: 1.7368vw;
+              margin: 0.5263vw 0.5263vw 0 0;
+              background-position: center;
+              background-size: cover;
+              background-image: url(./assets/Grade3.png);
+            }
+          }
+        }
+        > tr:nth-child(5) {
+          td {
+            span {
+              float: left;
+              display: block;
+              width: 1.3684vw;
+              height: 1.7368vw;
+              margin: 0.5263vw 0.5263vw 0 0;
+              background-position: center;
+              background-size: cover;
+              background-image: url(./assets/Grade4.png);
+            }
+          }
+          > td:first-child {
+            font-weight: bold;
+          }
+        }
+        > tr:nth-child(6) {
+          td {
+            span {
+              float: left;
+              display: block;
+              width: 1.3684vw;
+              height: 1.7368vw;
+              margin: 0.5263vw 0.5263vw 0 0;
+              background-position: center;
+              background-size: cover;
+              background-image: url(./assets/Grade5.png);
+            }
+          }
+          > td:first-child {
+            font-weight: bold;
+          }
+        }
+        > tr:nth-child(7) {
+          td {
+            span {
+              float: left;
+              display: block;
+              width: 1.3684vw;
+              height: 1.7368vw;
+              margin: 0.5263vw 0.5263vw 0 0;
+              background-position: center;
+              background-size: cover;
+              background-image: url(./assets/Grade6.png);
+            }
+          }
+          > td:first-child {
+            font-weight: bold;
+          }
+        }
+        .grade-title {
+          background-color: #605bd4;
+          th {
+            color: #ffffff;
+          }
+        }
+      }
+    }
+  }
+  .calculator {
+    top: -7px;
+    position: relative;
+    width: 100%;
+    height: 43.1053vw;
+    background-position: center;
+    background-size: 100% 100%;
+    overflow: hidden;
+    background-image: url(./assets/bg4.jpg);
+    .incomeAmount {
+      width: 52.6316vw;
+      margin: 2vw auto 0;
+      color: #ffffff;
+      font-size: 0.9474vw;
+      padding-left: 5.2632vw;
+    }
+    p:first-child {
+      padding: 6.8421vw 0 3.3158vw 0;
+      text-align: center;
+      font-size: 2.5263vw;
+      font-family: MicrosoftYaHei-Bold;
+      font-weight: bold;
+      color: rgba(255, 255, 255, 0.9);
+      line-height: 1.3684vw;
+      text-shadow: 0.1579vw 0.2632vw 0.3158vw rgba(0, 0, 0, 0.2);
+    }
+    .calculatorInput {
+      overflow: hidden;
+      > .form-item {
+        display: flex;
+        justify-content: center;
+        width: 52.6316vw;
+        margin: 0 auto;
+        > .form-item-label {
+          margin-right: 1.1053vw;
+          float: left;
+          font-size: 0.9474vw;
+          line-height: 2.9474vw;
+          color: #ffffff;
+        }
+        > .form-item-content {
+          position: relative;
+          input {
+            padding-left: 1.5263vw;
+            font-size: 0.9474vw;
+            width: 47.5789vw;
+            height: 2.9474vw;
+            line-height: 2.9474vw;
+            background-color: #ffffff;
+            &::placeholder {
+              color: #cccccc;
+              font-size: 0.8421vw;
+            }
+          }
+
+          span {
+            position: absolute;
+            right: 1.0526vw;
+            top: 1.0526vw;
+          }
+        }
+        .time {
+          float: left;
+          width: 54%;
+        }
+
+        .demonstration {
+          display: block;
+          color: #ffffff;
+          font-size: 0.9474vw;
+          float: left;
+          line-height: 2.9474vw;
+          margin: 2vw 0.8947vw 0 0;
+        }
+      }
+
+      :deep(.el-date-editor.el-input),
+      .el-date-editor.el-input__inner {
+        width: 19vw;
+        float: left;
+        margin: 2vw 0 4.8421vw 0;
+        input {
+          color: #fff;
+          height: 2.9474vw;
+          line-height: 2.9474vw;
+          border-radius: 0;
+        }
+        :deep(.el-input__prefix) {
+          top: 0.1053vw;
+        }
+        :deep(.el-input__suffix) {
+          top: 0.2105vw;
+        }
+      }
+    }
+    .calculatorBtn {
+      text-align: center;
+      font-size: 0.9474vw;
+      cursor: pointer;
+      color: #f5f4f1;
+      width: 17.2105vw;
+      height: 4.7368vw;
+      margin: 2.8421vw auto 0;
+      line-height: 3.6842vw;
+      background-position: center;
+      background-size: 100% 100%;
+      overflow: hidden;
+      background-image: url(./assets/btn.png);
+    }
+  }
+  // 常见问题
+  .problem {
+    top: -7px;
+    position: relative;
+    width: 100%;
+    height: 38.1579vw;
+    background-position: center;
+    background-size: 100% 100%;
+    overflow: hidden;
+    background-image: url(./assets/bg5.jpg);
+    > p {
+      margin-top: 6.3158vw;
+      text-align: center;
+      font-size: 2.5263vw;
+      font-family: MicrosoftYaHei-Bold;
+      font-weight: bold;
+      color: rgba(80, 76, 168, 1);
+      line-height: 1.3684vw;
+      text-shadow: 0.1579vw 0.2632vw 0.3158vw rgba(0, 0, 0, 0.2);
+    }
+    .problemDetail {
+      width: 52.6316vw;
+      margin: 10vw auto 0;
+
+      > .problemTitle {
+        display: flex;
+        height: 3.1579vw;
+        line-height: 3.1579vw;
+        justify-content: space-around;
+        > div {
+          cursor: pointer;
+          text-align: center;
+          width: 33.333%;
+          color: #ffffff;
+          font-size: 1.0526vw;
+        }
+        > div:nth-child(1) {
+          background-color: #6e88f8;
+        }
+        > div:nth-child(2) {
+          background-color: #ffbb2a;
+        }
+        > div:nth-child(3) {
+          background-color: #ff552a;
+        }
+      }
+      > .problemContent {
+        padding: 2.1579vw 2.5263vw;
+        width: 52.6316vw;
+        font-size: 1.0526vw;
+        font-family: MicrosoftYaHei;
+        font-weight: 400;
+        color: rgba(51, 51, 51, 1);
+        line-height: 1.8947vw;
+        background-color: #ffffff;
+      }
+    }
+  }
+}

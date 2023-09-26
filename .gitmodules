@@ -1,0 +1,3 @@
+[submodule "src/current_project"]
+	path = src/current_project
+	url = mailto:git@github.com:j33app2/overseas-web-common.git

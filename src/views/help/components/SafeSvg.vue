@@ -1,0 +1,74 @@
+<template>
+  <div class="question-wrap">
+    <svg
+      width="20px"
+      height="20px"
+      viewBox="0 0 20 20"
+      version="1.1"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+    >
+      <title>anquan 2</title>
+      <defs>
+        <filter id="filter-1">
+          <feColorMatrix
+            in="SourceGraphic"
+            type="matrix"
+            values="0 0 0 0 0.023529 0 0 0 0 0.223529 0 0 0 0 0.388235 0 0 0 1.000000 0"
+          ></feColorMatrix>
+        </filter>
+      </defs>
+      <g
+        id="新手教程"
+        stroke="none"
+        stroke-width="1"
+        fill-rule="evenodd"
+      >
+        <g
+          transform="translate(-380.000000, -685.000000)"
+          id="编组-4"
+        >
+          <g transform="translate(360.000000, 199.000000)">
+            <g
+              id="anquan"
+              transform="translate(20.000000, 486.000000)"
+            >
+              <rect
+                id="矩形"
+                class="help-icon-circle"
+                x="0"
+                y="0"
+                width="20"
+                height="20"
+                rx="10"
+              ></rect>
+              <g
+                id="形状"
+                transform="translate(6.000000, 5.500000)"
+              >
+                <g>
+                  <path
+                    class="help-icon-inner"
+                    d="M7.55140187,1.25 C7.55140187,1.25 6.95327103,1.25 5.98130841,0.892857139 C4.93457944,0.535714277 4.29906542,0.142857139 4.29906542,0.142857139 L4,0 L3.73831775,0.142857139 C3.73831775,0.142857139 3.06542056,0.535714277 2.05607476,0.892857139 C1.04672896,1.21428571 0.485981297,1.25 0.485981297,1.25 L0,1.28571429 L0,6.21428571 C0,8.03571429 3.55140187,10 4,10 C4.41121494,10 8,8.03571429 8,6.21428571 L8,1.28571429 L7.55140187,1.25 Z M3.73831775,6.92857143 L1.86915887,5.28571429 L2.42990654,4.60714286 L3.62616821,5.64285715 L5.86915887,2.96428572 L6.54205606,3.57142858 L3.73831775,6.92857143 L3.73831775,6.92857143 Z"
+                    fill-rule="nonzero"
+                  ></path>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </svg>
+
+  </div>
+</template>
+
+<script setup>
+import { inject, reactive } from 'vue';
+</script>
+
+<style lang='scss' scoped>
+.question-wrap {
+  margin-right: 15px;
+}
+</style>

@@ -1,0 +1,358 @@
+@import './colors/colors.scss';
+
+$--theme-color: #25c39a;
+$--shadow-color: rgba(0, 0, 0, 0.09);
+$--base-width: 1794px;
+
+$--color-e4e7ed: #e4e7ed;
+$--color-8E8E8E: #8e8e8e;
+$--color-929292: #929292;
+$--color-d8d8d8: #d8d8d8;
+$--color-0d0300: #0d0300;
+$--color-0a0a0a: #0a0a0a;
+$--color-000: #000000;
+$--color-070707: #070707;
+$--color-fff: #fff;
+$--color-f5f5f5: #f5f5f5;
+$--color-e1e1e2: #e1e1e2;
+$--color-fcfcfc: #fcfcfc;
+$--color-222930: #222930;
+$--color-aaa: #aaa;
+$--color-404040: #404040;
+$--color-f9f9f9: #f9f9f9;
+$--color-f66: #f66;
+$--color-ccc: #ccc;
+$--color-999: #999;
+$--color-9367B5: #9367b5;
+$--color-976346: #976346;
+$--color-F84545: #f84545;
+$--color-f7f7f7: #f7f7f7;
+$--danger-color: #ff4444;
+$--color-e9f9f5: #e9f9f5;
+$--color-EFFEFA: #EFFEFA;
+
+// font-color  字体颜色
+$--font-color-fff: #fff;
+$--font-color-000: #000;
+$--font-color-333: #333;
+$--font-color-666: #666;
+$--font-color-desc: #262137;
+$--font-color-2c3e50: #2c3e50;
+$--font-color-b1b1b1: #b1b1b1;
+$--font-color-f00: #f00;
+$--font-color-0C0C0C: #0c0c0c;
+$--font-color-bdbdbd: #bdbdbd;
+$--font-color-6c6c6c: #6c6c6c;
+$--font-color-fdfdfd: #fdfdfd;
+$--font-color-2b2b2b: #2b2b2b;
+$--font-color-656565: #656565;
+$--font-color-9fbbd5: #9fbbd5;
+
+$--font-size: 16px;
+
+// bg-color    页面背景色
+$--bg-color-fff: #fff;
+$--bg-color-f1f1f1: #f1f1f1;
+$--bg-color-222930: #222930;
+$--bg-color-BLIZZWIN优势: #222930;
+$--bg-color-f5f5f5: #f5f5f5;
+$--bg-color-e3e3e3: #e3e3e3;
+$--bg-color-43535d: #43535d;
+$--bg-color-2C3239: #2c3239;
+$--bg-color-ae2122: #ae2122;
+$--bg-color-4c6ca1: #4c6ca1;
+$--bg-color-070707: #070707;
+$--bg-color-2A313E: #2a313e;
+$--bg-color-1e212e: #1e212e;
+$--bg-color-b9ab75: #b9ab75;
+$--bg-color-F2F3F4: #f2f3f4;
+$--bg-color-ecf0f6: #ecf0f6;
+$--bg-color-000-6: rgba(0, 0, 0, 0.6);
+$--bg-color-000-4: rgba(0, 0, 0, 0.4);
+$--bg-color-000-3: rgba(0, 0, 0, 0.3);
+$--bg-color-000-2: rgba(0, 0, 0, 0.2);
+$--bg-color-000-1: rgba(0, 0, 0, 0.1);
+$--bg-color-ececec: #ececec;
+$--bg-color-efefef: #efefef;
+$--agent-header-bg-color: #1a1915;
+$--bg-color-525152: #525152;
+$--bg-color-f3f3f3: #f3f3f3;
+$--bg-color-c0c0c0: #c0c0c0;
+$--bg-color-10141F: #10141f;
+$--bg-color-0df5b9: #0df5b9;
+$--td-bg-color: rgba(0, 0, 00, 0.03);
+$--loading-mask-bg: rgba(255, 255, 255, 0.9);
+$--selected-bg-color: $--color-fff;
+
+// font-family
+$--font-family: 'SourceHanSansCN, SourceHanSansCN-Regular;';
+$--font-family-bold: 'SourceHanSansCN, SourceHanSansCN-Bold;';
+$--font-family-medium: 'SourceHanSansCN, SourceHanSansCN-Medium;';
+// font-weight
+$--font-weight-700: 700;
+$--font-weight-600: 600;
+$--font-weight-500: 500;
+
+// border-color
+$--footer-border: rgba(255, 255, 255, 0.1);
+$--border-color-fff: #fff;
+$--border-color-e5e5e5: #e5e5e5;
+$--border-color-e2e2e2: #e2e2e2;
+$--border-color-ccc: #ccc;
+$--border-color-e6ecf1: #e6ecf1;
+$--input-border-color: rgba(255, 255, 255, 0.3); // input边框颜色
+$--border-color-000-2: rgba(0, 0, 0, 0.2);
+$--border-color-000-1: rgba(0, 0, 0, 0.1);
+$--border-color-26AAE1: #26aae1;
+$--border-color-6c6c6c: #6c6c6c;
+$--border-color-efefef: #efefef;
+$--border-color-666: #666;
+$--border-color-343434: #343434;
+$--rank-table-border: rgba(0, 0, 0, .1);
+
+// svg-icon
+$--agent-nav-svg-fill: #b7b7b7;
+
+// dialog
+$--dialog-background-color: #fff; // 弹框背景色
+$--dialog-footer-btn-width: 200px; // 弹框底部按钮长度
+$--dialog-title-font-color: $--color-000; // 弹框标题色
+$--dialog-title-font-size: 18px; // 弹框标题色
+$--dialog-border-radius: 10px; //  弹框圆角
+$--dialog-common-border-radius: 10px; // 公共弹框圆角
+
+// Input
+$--input-background-color: transparent; // input默认背景色
+$--input-border-focus-color: $--theme-color; // input边框聚焦颜色
+$--input-font-color: #ccc; // 输入文字颜色
+$--input-placeholder-color: #999; // 提示文字颜色
+$--input-prefix-height: 60px; // prefix 高度
+$--input-big-height: 60px; // big size 高度
+$--input-prefix-font-size: 18px; // prefix 高度
+$--input-disabled-font-color: #4d4d4d; // 禁用文字颜色
+$--input-disabled-border-color: #343434; // 禁用input边框颜色
+
+// switch
+$--switch-close-background: #c8c8c8; // switch关闭背景色
+$--switch-close-dot-background: #ccc; // switch关闭滑块背景色
+// $--switch-open-background: $--theme-color; // switch开启背景色
+$--switch-open-dot-background: $--theme-color; // switch开启滑块背景色
+$--switch-open-dot-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.5); // switch开启滑块阴影
+$--switch-height: 24px; // switch高度
+$--switch-width: 40px; // switch高度
+
+// 排行榜颜色值
+$--rank-first-line-bg: linear-gradient(296deg, #c49863 0%, #8e6535 100%);
+$--rank-first-content-bg: linear-gradient(224deg, #c8a77f 0%, #ab8a61 100%);
+$--rank-second-line-bg: linear-gradient(130deg, #3d4a59 0%, #bbc8d2 100%);
+$--rank-second-content-bg: linear-gradient(49deg, #53606e 0%, #a8b4be 100%);
+$--rank-third-line-bg: linear-gradient(333deg, #a57358 0%, #6f4832 100%);
+$--rank-third-content-bg: linear-gradient(224deg, #a57358 0%, #8a614b 100%);
+
+$--header-height: 107px;
+$--footer-height: 392px;
+
+// block bg color
+$--block-bg-color: transparent;
+$--popper-arrow-color: #fff;
+$--popper-bg-color: transparent;
+$--center-nav-sub-border: transparent;
+$--popper-light-arrow-color: transparent;
+$--center-help-fill-color: #525152;
+$--svg-fill-color-c0c0c0: #c0c0c0;
+
+#app,
+#app~* {
+  // theme-color
+  --theme-color: #{$--theme-color};
+  --font-family: #{$--font-family};
+  --base-width: #{$--base-width};
+  --arrow-color: #{$--color-8E8E8E};
+  --shadow-color: #{$--shadow-color};
+  --font-size: #{$--font-size};
+
+  // font-color
+  --font-color-fff: #{$--font-color-fff};
+  --font-color-333: #{$--font-color-333};
+  --font-color-666: #{$--font-color-666};
+  --font-color-desc: #{$--font-color-desc};
+  --font-color-929292: #{$--color-929292};
+  --font-color-0a0a0a: #{$--color-0a0a0a};
+  --font-color-2c3e50: #{$--font-color-2c3e50};
+  --font-color-222930: #{$--color-222930};
+  --font-color-404040: #{$--color-404040};
+  --font-color-f66: #{$--color-f66};
+  --font-color-000: #{$--color-000};
+  --font-color-070707: #{$--color-070707};
+  --font-color-b1b1b1: #{$--font-color-b1b1b1};
+  --font-color-ccc: #{$--color-ccc};
+  --font-color-999: #{$--color-999};
+  --font-color-F84545: #{$--color-F84545};
+  --font-color-f00: #{$--font-color-f00};
+  --font-color-0C0C0C: #{$--font-color-0C0C0C};
+  --font-color-bdbdbd: #{$--font-color-bdbdbd};
+  --font-color-000-4: #{$--bg-color-000-4};
+  --font-color-6c6c6c: #{$--font-color-6c6c6c};
+  --font-color-fdfdfd: #{$--font-color-fdfdfd};
+  --font-color-2b2b2b: #{$--font-color-2b2b2b};
+  --font-color-656565: #{$--font-color-656565};
+  --font-color-9fbbd5: #{$--font-color-9fbbd5};
+  --font-color-8492a6: #8492a6;
+  --font-color-bebebe: #bebebe;
+  --font-color-bbb: #bbb;
+  --font-color-7fe1df: #7fe1df;
+  --font-color-43535d: #43535d;
+
+  // font-family
+  --font-family: #{$--font-family};
+  --font-family-bold: #{$--font-family-bold};
+  --font-family-medium: #{$--font-family-medium};
+
+  // font-weight
+  --font-weight-700: #{$--font-weight-700};
+  --font-weight-600: #{$--font-weight-600};
+  --font-weight-500: #{$--font-weight-500};
+
+  // border-color
+  --input-border-color: #{$--input-border-color};
+  --footer-border: #{$--footer-border};
+  --border-color-fff: #{$--border-color-fff};
+  --border-color-e5e5e5: #{$--border-color-e5e5e5};
+  --border-color-e4e7ed: #{$--color-e4e7ed};
+  --border-color-d8d8d8: #{$--color-d8d8d8};
+  --border-color-aaa: #{$--color-aaa};
+  --border-color-e2e2e2: #{$--border-color-e2e2e2};
+  --block-border-color: #{$--border-color-e2e2e2};
+  --center-title-border-color-e2e2e2: #{$--border-color-e2e2e2};
+  --border-color-ccc: #{$--border-color-ccc};
+  --border-color-e6ecf1: #{$--border-color-e6ecf1};
+  --border-color-222930: #{$--color-222930};
+  --border-color-000-2: #{$--border-color-000-2};
+  --border-color-000-1: #{$--border-color-000-1};
+  --border-color-26AAE1: #{$--border-color-26AAE1};
+  --border-color-000-6: #{$--bg-color-000-6};
+  --border-color-000: #{$--color-000};
+  --border-color-6c6c6c: #{$--border-color-6c6c6c};
+  --border-color-efefef: #{$--border-color-efefef};
+  --border-color-666: #{$--border-color-666};
+  --border-color-343434: #{$--border-color-343434};
+  --border-color-bbb: #bbb;
+  --discount-border-color-000: rgba(0, 0, 0, .17);
+  --input-disabled-font-color: #{$--input-disabled-font-color};
+  --border-color-353435: #353435;
+  --yaxis-border-color: transparent;
+  --rank-table-border: #{$--rank-table-border};
+
+  // bg-color
+  --bg-color-fff: #{$--bg-color-fff};
+  --bg-color-f1f1f1: #{$--bg-color-f1f1f1};
+  --bg-color-BLIZZWIN优势: #{$--bg-color-fff};
+  --bg-color-e3e3e3: #{$--bg-color-e3e3e3};
+  --bg-color-f5f5f5: #{$--bg-color-f5f5f5};
+  --bg-color-43535d: #{$--bg-color-43535d};
+  --bg-color-2C3239: #{$--bg-color-2C3239};
+  --bg-color-ae2122: #{$--bg-color-ae2122};
+  --bg-color-4c6ca1: #{$--bg-color-4c6ca1};
+  --bg-color-F2F3F4: #{$--bg-color-F2F3F4};
+  --bg-color-000-6: #{$--bg-color-000-6};
+  --bg-color-000-4: #{$--bg-color-000-4};
+  --bg-color-000-3: #{$--bg-color-000-3};
+  --bg-color-000-2: #{$--bg-color-000-2};
+  --bg-color-000-1: #{$--bg-color-000-1};
+  --bg-color-999: #{$--color-999};
+  --bg-color-0d0300: #{$--color-0d0300};
+  --bg-color-e1e1e2: #{$--color-e1e1e2};
+  --bg-color-fcfcfc: #{$--color-fcfcfc};
+  --bg-color-070707: #{$--bg-color-070707};
+  --bg-color-2A313E: #{$--bg-color-2A313E};
+  --bg-color-1e212e: #{$--bg-color-1e212e};
+  --bg-color-b9ab75: #{$--bg-color-b9ab75};
+  --bg-color-ecf0f6: #{$--bg-color-ecf0f6};
+  --bg-color-222930: #{$--color-222930};
+  --bg-color-f9f9f9: #{$--color-f9f9f9};
+  --bg-color-ececec: #{$--bg-color-ececec};
+  --bg-color-efefef: #{$--bg-color-efefef};
+  --agent-header-bg-color: #{$--agent-header-bg-color};
+  --bg-color-525152: #{$--bg-color-525152};
+  --bg-color-f3f3f3: #{$--bg-color-f3f3f3};
+  --bg-color-c0c0c0: #{$--bg-color-c0c0c0};
+  --bg-color-f7f7f7: #{$--color-f7f7f7};
+  --bg-color-10141F: #{$--bg-color-10141F};
+  --bg-color-0df5b9: #{$--bg-color-0df5b9};
+  --bg-color-e9f9f5: #{$--color-e9f9f5};
+  --bg-color-51cfae: #51cfae;
+  --bg-color-191919: #191919;
+  --main-bg-color-fff: #{$--bg-color-fff};
+  --rank-table-bg: transparent;
+  --rank-head-bg-color-f7f7f7:#{$--color-f7f7f7};
+  --service-icon-bg-color: rgba(37, 195, 154, 0.1);
+  --bg-color-181818: #181818;
+
+  --landing-bg-color-fff: #{$--color-fff};
+  --rank-table-bg: transparent;
+  --rank-head-bg-color-f7f7f7:#{$--color-f7f7f7};
+
+  // svg background
+  --agent-nav-svg-fill: #{$--agent-nav-svg-fill};
+  --svg-color-fff: #{$--color-fff};
+  --svg-color-9367B5: #{$--color-9367B5};
+  --svg-color-976346: #{$--color-976346};
+
+  // element
+  --dialog-background-color: #{$--dialog-background-color};
+  --td-bg-color: #{$--td-bg-color};
+  --loading-mask-bg: #{$--loading-mask-bg};
+  --selected-bg-color: #{$--selected-bg-color};
+
+  --rank-first-line-bg: #{$--rank-first-line-bg};
+  --rank-first-content-bg: #{$--rank-first-content-bg};
+  --rank-second-line-bg: #{$--rank-second-line-bg};
+  --rank-second-content-bg: #{$--rank-second-content-bg};
+  --rank-third-line-bg: #{$--rank-third-line-bg};
+  --rank-third-content-bg: #{$--rank-third-content-bg};
+
+  --header-height: #{$--header-height};
+  --footer-height: #{$--footer-height};
+  --danger-color: #{$--danger-color};
+
+  --block-bg-color: #{$--block-bg-color};
+  --popper-arrow-color: #{$--popper-arrow-color};
+  --popper-bg-color: #{$--popper-bg-color};
+  --center-nav-sub-border: #{$--center-nav-sub-border};
+  --popper-light-arrow-color: #{$--popper-light-arrow-color};
+  --center-help-fill-color: #{$--center-help-fill-color};
+  --svg-fill-color-c0c0c0: #{$--svg-fill-color-c0c0c0};
+  --switch-open-background: #{$--theme-color};
+  --switch-open-dot-background: #{$--switch-open-dot-background};
+  --switch-close-dot-background: #{$--switch-close-dot-background};
+  --switch-close-background: #{--switch-close-background};
+  --help-cirle-bg-color: #{$--theme-color};
+  --help-inner-bg-color: #{$--color-fff};
+  --border-color-e5e5e5: #{$--border-color-e5e5e5};
+  --fill-color-43535D: #{$--bg-color-43535d};
+  --dialog-close-color: #{$--color-000};
+  --font-color-2e2e2e: #2e2e2e;
+  --font-color-00d477: #00d477;
+  --placeholder-color: #{$--color-999};
+  --font-vip-color: #{$--color-fff};
+  --font-v-color: #{$--theme-color};
+  --bg-color-EFFEFA: #{$--color-EFFEFA};
+  --user-avatar-color: #C0C0C0;
+  --btn-grey-border-color: transparent;
+
+  --rank-bg-color: #{$--color-fff};
+  --bg-color-E1C086: #E1C086;
+  --bg-color-C6C6C6: #C6C6C6;
+  --bg-color-E6A788: #E6A788;
+  --rank-head-bg: #f2f2f2;
+  --rank-head-person: #DEDEDE;
+  --bg-color-E0FFF7: #E0FFF7;
+  --lading-border-color-000-1: #000;
+  --center-m-icon-color: #fff;
+  --lading-head-bg: #000;
+  --agent-chart-font-color: #666;
+  --bg-color-151515: #151515;
+  --font-color-525152: #525152;
+}
+
+@import './variables.scss';

@@ -1,0 +1,73 @@
+<template>
+  <div class="question-wrap">
+    <svg
+      width="20px"
+      height="20px"
+      viewBox="0 0 20 20"
+      version="1.1"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+    >
+      <title>youxi 2</title>
+      <defs>
+        <filter id="filter-1">
+          <feColorMatrix
+            in="SourceGraphic"
+            type="matrix"
+            values="0 0 0 0 0.023529 0 0 0 0 0.223529 0 0 0 0 0.388235 0 0 0 1.000000 0"
+          ></feColorMatrix>
+        </filter>
+      </defs>
+      <g
+        id="新手教程"
+        stroke="none"
+        stroke-width="1"
+        fill-rule="evenodd"
+      >
+        <g
+          transform="translate(-380.000000, -635.000000)"
+          id="编组-4"
+        >
+          <g transform="translate(360.000000, 199.000000)">
+            <g
+              id="youxi"
+              transform="translate(20.000000, 436.000000)"
+            >
+              <rect
+                id="矩形"
+                class="help-icon-circle"
+                x="0"
+                y="0"
+                width="20"
+                height="20"
+                rx="10"
+              ></rect>
+              <g
+                id="形状"
+                transform="translate(6.500000, 6.000000)"
+              >
+                <g>
+                  <path
+                    d="M8,0.666666667 L8,8 L1.34166667,8 C0.6,8 0,7.4 0,6.65833333 L0,1.34166667 C0,0.6 0.6,0 1.34166667,0 L6.66666667,0 L6.66666667,5.33333333 L1.35,5.33333333 C0.975,5.33333333 0.666666667,5.64166667 0.666666667,6.01666667 L0.666666667,6.65 C0.666666667,7.025 0.975,7.33333333 1.35,7.33333333 L7.33333333,7.33333333 L7.33333333,0.666666667 L8,0.666666667 Z M6.66666667,6 L1.33333333,6 L1.33333333,6.66666667 L6.66666667,6.66666667 L6.66666667,6 Z"
+                    class="help-icon-inner"
+                    fill-rule="nonzero"
+                  ></path>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </svg>
+  </div>
+</template>
+
+<script setup>
+import { inject, reactive } from 'vue';
+</script>
+
+<style lang='scss' scoped>
+.question-wrap {
+  margin-right: 15px;
+}
+</style>

@@ -1,0 +1,330 @@
+#loanTreasure {
+  text-align: left;
+  background: #fff;
+  .disabled {
+    background-color: #ddd !important;
+  }
+  > .top {
+    width: 100%;
+    background-color: #fff;
+    > img {
+      width: 100%;
+      display: block;
+    }
+  }
+  // 贷款规则
+  > .lendingRules {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 750px;
+    background-color: #fff;
+    > img {
+      width: 100%;
+      display: block;
+    }
+    > .rules {
+      width: 62.5vw;
+      height: 24.375vw;
+      border-radius: 0 0 0.8vw 0.8vw;
+      position: absolute;
+      top: 7.5vw;
+      left: 50%;
+      margin: 0 auto 0 -31.25vw;
+      z-index: 10;
+      > div {
+        width: 100%;
+        height: 3.85vw;
+        background: rgba(165, 176, 250, 1);
+        border-radius: 0.8vw 0.8vw 0 0;
+      }
+      table {
+        width: 100%;
+        position: relative;
+        z-index: 999;
+        top:-30px;
+        tr {
+          width: 100%;
+          display: flex;
+          justify-content: space-around;
+          height: 2.6vw;
+          line-height: 2.6vw;
+          th,
+          td {
+            color: #445df9;
+            font-size: 0.8vw;
+            display: flex;
+            justify-content: center;
+            width: 25%;
+            text-align: center;
+          }
+        }
+        tr {
+          > td:first-child {
+            color: #f75e04;
+            font-size: 0.8vw;
+            font-weight: bold;
+          }
+        }
+        tr:nth-child(2n + 1) {
+          background: rgba(225, 228, 255, 1);
+        }
+        tr:nth-child(2n) {
+          background-color: #d3d8ff;
+        }
+        .rules-title {
+          height: 4.16vw;
+          line-height: 4.16vw;
+          font-weight: bold;
+          th {
+            font-size: 1vw;
+            color: rgba(0, 0, 201, 1);
+          }
+        }
+      }
+      > p {
+        text-align: center;
+        font-size: 0.8vw;
+        color: rgba(233, 122, 72, 1);
+        font-weight: bold;
+        height: 4.16vw;
+        line-height: 4.16vw;
+        border-radius: 0 0 0.8vw 0.8vw;
+      }
+    }
+    > .pic {
+      font-size: 2.08vw;
+      color: rgba(208, 85, 29, 1);
+      top: 6.25vw;
+      left: 0;
+      width: 100%;
+      position: absolute;
+      line-height: 3.4vw;
+      font-weight: bold;
+      z-index: 10;
+      > img {
+        display: block;
+        width: 22.395vw;
+        margin: 0 auto;
+      }
+      > p {
+        position: absolute;
+        top: 0;
+        left: 0;
+        text-align: center;
+        width: 100%;
+      }
+    }
+  }
+  // 活动申请
+  > .activity {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 46.875vw;
+    background-position: center;
+    background-size: 100% 100%;
+    overflow: hidden;
+    background-image: url(./assets/jiedaibao_application_bg_b.png);
+    .activity-left {
+      width: 10.41vw;
+      margin: 4.58vw 1.35vw 0 0;
+      img {
+        display: block;
+        width: 100%;
+        height: 10.41vw;
+      }
+      > img:first-child {
+        margin-bottom: 1.875vw;
+      }
+    }
+    .activity-right {
+      width: 10.41vw;
+      margin: 4.58vw 0 0 1.875vw;
+      img {
+        display: block;
+        width: 100%;
+        height: 10.41vw;
+      }
+      > img:first-child {
+        margin-bottom: 1.875vw;
+      }
+    }
+    .activity-center {
+      width: 52.08vw;
+      margin-top: 4.21vw;
+      .activity-top {
+        color: #d0551d;
+        font-size: 2.08vw;
+        text-align: center;
+        width: 100%;
+        height: 3.65vw;
+        font-weight: bold;
+        line-height: 3.65vw;
+        background-position: center;
+        background-size: 100% 100%;
+        background-image: url(./assets/jiedaibao_application_bg_a.png);
+      }
+      .activity-pic {
+        display: flex;
+        justify-content: center;
+        margin-top: 2.91vw;
+        > .item-pic {
+          width: 9.375vw;
+          height: 12.375vw;
+          &:nth-child(1) {
+            > div {
+              background-image: url('./assets/jiedaibao_borrow_ic_nor.png');
+              &.active {
+                background-image: url('./assets/jiedaibao_borrow_ic_hover.png');
+              }
+            }
+          }
+          &:nth-child(3) {
+            > div {
+              background-image: url('./assets/jiedaibao_money_ic_nor.png');
+              &.active {
+                background-image: url('./assets/jiedaibao_money_ic_hover.png');
+              }
+            }
+          }
+          &:nth-child(5) {
+            > div {
+              background-image: url('./assets/jiedaibao_day_ic_nor.png');
+              &.active {
+                background-image: url('./assets/jiedaibao_day_ic_hover.png');
+              }
+            }
+          }
+          &:nth-child(7) {
+            > div {
+              background-image: url('./assets/jiedaibao_application_ic_nor.png');
+              &.active {
+                background-image: url('./assets/jiedaibao_application_ic_hover.png');
+              }
+            }
+          }
+          > div {
+            width: 9.375vw;
+            height: 9.375vw;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            cursor: pointer;
+          }
+          > p {
+            font-size: 1.28vw;
+            line-height: 1;
+            margin-top: 1.72vw;
+            font-weight: bold;
+            color: #63697b;
+            text-align: center;
+          }
+        }
+        > .arrow {
+          display: block;
+          width: 2.4vw;
+          height: 2.4vw;
+          margin: 3.65vw 1.4vw 0 1.4vw;
+        }
+      }
+      .form-item {
+        width: 29.69vw;
+        margin: 6vw auto 0;
+
+        &:after {
+          content: '';
+          display: block;
+          clear: both;
+        }
+        .form-item-label {
+          float: left;
+          font-size: 1.28vw;
+          line-height: 3.33vw;
+          margin-right: 1.04vw;
+          font-weight: bold;
+          color: rgba(99, 105, 123, 1);
+        }
+        input {
+          float: left;
+          padding: 0 1.77vw 0 1.35vw;
+          width: 21.875vw;
+          height: 3.33vw;
+          line-height: 3.33vw;
+          background: rgba(255, 255, 255, 1);
+          border-radius: 4px;
+        }
+        > p {
+          text-align: center;
+          font-size: 1.28vw;
+          line-height: 3.33vw;
+          font-weight: bold;
+          color: rgba(99, 105, 123, 1);
+          position: relative;
+          > span {
+            position: absolute;
+            top: 0;
+            left: 25vw;
+            width: 15vw;
+          }
+        }
+      }
+      .calculatorBtn {
+        cursor: pointer;
+        color: rgba(225, 84, 92, 1);
+        font-size: 1.25vw;
+        text-align: center;
+        width: 18.96vw;
+        height: 3.96vw;
+        line-height: 3.76vw;
+        background-position: center;
+        background-size: 16.67vw 3.54vw;
+        margin: 2.4vw auto 0;
+        font-weight: bold;
+        background-repeat: no-repeat;
+        background-image: url('./assets/jiedaibao_application_btn_bg_nor.png');
+        &:hover {
+          background-size: 100% 100%;
+          background-image: url('./assets/jiedaibao_application_btn_bg_hover.png');
+        }
+      }
+    }
+  }
+
+  //活动细则
+  .rulesActivities {
+    width: 100%;
+    height: 57.29vw;
+    background-position: center;
+    background-size: 100% 100%;
+    overflow: hidden;
+    background-image: url(./assets/jiedaibao_rule_bg_b.png);
+    .rulesActivitiesContent {
+      padding: 0 3.25vw;
+      width: 64.8vw;
+      height: 43.75vw;
+      margin: 6.77vw auto 0;
+      background-position: center;
+      background-size: 100% 100%;
+      overflow: hidden;
+      background-image: url(./assets/jiedaibao_rule_bg_a.png);
+      > div {
+        text-align: center;
+        color: rgba(255, 255, 255, 1);
+        font-size: 2.08vw;
+        height: 4.5vw;
+        font-weight: bold;
+        line-height: 4.5vw;
+      }
+      p {
+        color: #5b5bc2;
+        font-size: 0.8vw;
+        line-height: 1.35vw;
+        margin-top: 1.77vw;
+        font-weight: bold;
+      }
+      > p:nth-child(2) {
+        margin-top: 4vw;
+      }
+    }
+  }
+}

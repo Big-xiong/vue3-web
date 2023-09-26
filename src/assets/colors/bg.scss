@@ -1,0 +1,11 @@
+// bg
+$--bg-color-f0f0f0: #f0f0f0;
+$--bg-color-2c2c2c: #2c2c2c;
+$--bg-color-efefef: #efefef;
+
+// css var 
+:root { 
+  --bg-color-f0f0f0: #{$--bg-color-f0f0f0}; 
+  --bg-color-2c2c2c: #{$--bg-color-2c2c2c}; 
+  --bg-color-efefef: #{$--bg-color-efefef}; 
+}

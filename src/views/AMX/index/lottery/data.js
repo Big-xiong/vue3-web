@@ -1,0 +1,58 @@
+export default [
+  {
+    default_game_id: 4409,
+    game_platform_id: 121,
+    title: '极速快3',
+    name: 'VR',
+    pic: '/src/assets/images/AMX/lottery/pic1.png',
+  },
+  {
+    default_game_id: 4393,
+    game_platform_id: 121,
+    title: '重庆时时彩',
+    name: 'VR',
+    pic: '/src/assets/images/AMX/lottery/pic2.png',
+  },
+  {
+    default_game_id: 4397,
+    game_platform_id: 121,
+    title: '北京赛车',
+    name: 'VR',
+    pic: '/src/assets/images/AMX/lottery/pic3.png',
+  },
+  {
+    default_game_id: 4400,
+    game_platform_id: 121,
+    title: '香港六合彩',
+    name: 'VR',
+    pic: '/src/assets/images/AMX/lottery/pic4.png',
+  },
+  {
+    default_game_id: 4399,
+    game_platform_id: 121,
+    title: '幸运28',
+    name: 'VR',
+    pic: '/src/assets/images/AMX/lottery/pic5.png',
+  },
+  {
+    default_game_id: 4346,
+    game_platform_id: 121,
+    title: '幸运飞艇',
+    name: 'VR',
+    pic: '/src/assets/images/AMX/lottery/pic6.png',
+  },
+  {
+    default_game_id: 4383,
+    game_platform_id: 121,
+    title: 'VR彩票百家乐',
+    name: 'VR',
+    pic: '/src/assets/images/AMX/lottery/pic7.png',
+  },
+  {
+    default_game_id: 4422,
+    game_platform_id: 121,
+    title: '澳洲幸运彩',
+    name: 'VR',
+    pic: '/src/assets/images/AMX/lottery/pic8.png',
+  },
+];

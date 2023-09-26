@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="google-site-verification" content="QWk5FcY_CICWx9BDoHSxFPoxWYJNRBl0CbK9nzAyPYg" />
+  <!--favicon-link-->
+  <!--head-tags-->
+  <!--preload-links-->
+  <style>
+    .app-loading::after {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 9999;
+      padding-left: 2px;
+      text-align: left;
+      color: #000;
+      content: "";
+      background: #fff url("/images/loading/loading.gif?[gifHash]") no-repeat center;
+      background-size: 256px 92px;
+    }
+
+    .app-loading.app-dark::after {
+      color: #fff;
+      background: #000 url("/images/loading/loading_dark.gif?[gifHash]") no-repeat center;
+      background-size: 256px 92px;
+    }
+
+    .slider::before {
+      z-index: 1001;
+      padding-left: 2px;
+      background-color: #24C29A;
+      width: 150%;
+      height: 200%;
+      content: "";
+      transform: translateX(-120%) skewX(-10deg);
+      transition: transform 1.5s;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 99999;
+    }
+
+    .slider-end::before {
+      transform: translateX(120%);
+    }
+
+    .kefu {
+      background: #191919 url("/images/play.jpg") no-repeat center;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+    }
+
+    .kefu iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+
+  </style>
+  <!-- Custom placeholder for vite plugin inject externals -->
+  <script>
+    const url = window.location.href;
+    const userAgent = navigator.userAgent;
+    const ipad = /(iPad).*OS\s([\d_]+)/.test(userAgent);
+    const isIphone = !ipad && /(iPhone\sOS)\s([\d_]+)/.test(userAgent);
+    const isAndroid = /(Android)\s+([\d.]+)/.test(userAgent);
+    const isMobile = isIphone || isAndroid;
+
+    if (isMobile && !url.includes('//m.') && !url.includes('.wq-test.')) {
+      window.location.href = url.replace(/\/\/(w{3}\.)?/, '//m.');
+    }
+  </script>
+  <script>
+    const urlQuery = (new URLSearchParams(location.search)).get('asset_type')
+    if (urlQuery) {
+      localStorage.setItem('assetType', urlQuery);
+    }
+    const assetType = localStorage.getItem('assetType') || 'bos'
+    const base = document.querySelector('base')
+    if (base) {
+      const ossUrl = base.attributes[assetType]?.value || base.attributes['bos']?.value
+      if (ossUrl) base.href = ossUrl
+    }
+  </script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-4TBZP32CDL"></script> -->
+  <!-- <script> -->
+  <!--   window.dataLayer = window.dataLayer || []; -->
+  <!--   function gtag() { dataLayer.push(arguments); } -->
+  <!--   gtag('js', new Date()); -->
+  <!---->
+  <!--   gtag('config', 'G-4TBZP32CDL', { -->
+  <!--     linker: { -->
+  <!--       domains: ['blizzwin.com', 'www.blizzwin.com', 'm.blizzwin.com'] -->
+  <!--     } -->
+  <!--   }); -->
+  <!-- </script> -->
+</head>
+
+<body>
+  <div id="app">
+    <!--app-html-->
+  </div>
+  <script type="module" src="/src/main.js"></script>
+  <script>
+    function getCookie(cname) {
+      let name = cname + "=";
+      let ca = document.cookie.split(';');
+      for (var i = 0; i < ca.length; i++) {
+        var c = ca[i].trim(); if (c.indexOf(name) == 0) return c.substring(name.length, c.length);
+      }
+      return "";
+    }
+    let app = document.querySelector('#app')
+    if (getCookie('showEnterLoading') === "true") {
+      app.classList.add('app-loading')
+      app.classList.add('slider')
+    }
+    if (getCookie('darkTheme') === "true") {
+      app.classList.add("app-dark")
+    }
+  </script>
+  <script src="/libs/socket.io/2.4.0/socket.io.min.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="126px" height="86px" viewBox="0 0 126 86" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 9</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.960784 0 0 0 0 0.823529 0 0 0 0 0.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="代理" stroke="none" stroke-width="1" fill-rule="evenodd">
+        <g id="编组-9" transform="translate(-907.000000, -1604.000000)" filter="url(#filter-1)">
+            <g transform="translate(907.000000, 1604.000000)">
+                <path d="M28.3454948,61.4710322 C35.0574898,73.7058577 48.0601445,82 63,82 L63,82 C84.8152476,82 102.5,64.3152476 102.5,42.5 C102.5,20.6847524 84.8152476,3 63,3 C47.9556815,3 34.8757491,11.4105371 28.2056234,23.7861908" id="路径" stroke="#00A0B0" stroke-width="3" stroke-linecap="round"></path>
+                <rect id="矩形" fill="#00A0B0" x="7" y="31" width="31" height="3" rx="1.5"></rect>
+                <rect id="矩形备份-37" fill="#00A0B0" x="0" y="39" width="32" height="3" rx="1.5"></rect>
+                <rect id="矩形备份-44" fill="#00A0B0" x="7" y="47" width="29" height="3" rx="1.5"></rect>
+                <text id="¥" font-family="PingFangSC-Medium, PingFang SC" font-size="40" font-weight="400">
+                    <tspan x="51" y="57">¥</tspan>
+                </text>
+                <polyline id="路径-17" stroke="#00A0B0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" points="28 74 28 60 42 66"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

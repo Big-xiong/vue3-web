@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="61px" height="17px" viewBox="0 0 61 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 12备份 9</title>
+    <g id="会员中心" stroke="none" stroke-width="1" fill-rule="evenodd">
+        <g id="画板" transform="translate(-835.000000, -184.000000)">
+            <g id="编组-12备份-9" transform="translate(835.000000, 184.000000)">
+                <rect id="矩形" stroke="#E6FFF9" x="0.5" y="1.5" width="60" height="14" rx="7"></rect>
+                <circle id="椭圆形" stroke="#E6FFF9" cx="8.5" cy="8.5" r="8"></circle>
+                <line x1="5.65957003" y1="6.14259545" x2="11.34043" y2="11.8234554" id="路径-3" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></line>
+                <line x1="11.34043" y1="6.14259545" x2="5.65957003" y2="11.8234554" id="路径-3备份" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></line>
+            </g>
+        </g>
+    </g>
+</svg>

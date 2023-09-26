@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>wenti 2</title>
+    <g id="新手教程" stroke="none" stroke-width="1" fill-rule="evenodd">
+        <g transform="translate(-380.000000, -229.000000)" id="编组-4">
+            <g transform="translate(360.000000, 199.000000)">
+                <g id="wenti" transform="translate(20.000000, 30.000000)">
+                    <rect id="矩形" class="help-icon-circle" x="0" y="0" width="20" height="20" rx="10"></rect>
+                    <path d="M10.416,12.266 C10.038,10.152 12.992,9.704 12.992,7.562 C12.992,5.994 11.886,5 10.15,5 C8.792,5 7.854,5.616 7,6.512 L7.756,7.212 C8.456,6.442 9.198,6.05 10.01,6.05 C11.2,6.05 11.746,6.75 11.746,7.674 C11.746,9.27 8.834,9.914 9.268,12.266 L10.416,12.266 Z M9.87,15.724 C10.486,15.724 10.99,15.29 10.99,14.618 C10.99,13.946 10.486,13.526 9.87,13.526 C9.254,13.526 8.736,13.946 8.736,14.618 C8.736,15.29 9.254,15.724 9.87,15.724 Z" id="？" class="help-icon-inner" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

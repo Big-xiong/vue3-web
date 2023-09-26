@@ -1,0 +1,163 @@
+$--dark-theme-color: #070707;
+$--color-fff: #fff;
+$--color-191919: #191919;
+$--color-232523: #232523;
+$--color-414141: #414141;
+$--color-141414: #141414;
+$--color-222423: #222423;
+$--color-232323: #232323;
+$--color-000: #000;
+$--color-666: #666;
+$--color-333: #333;
+$--color-2c2c2c: #2c2c2c;
+
+.dark {
+  .el-button {
+    &--grey {
+      background-color: transparent !important;
+      border: 1px solid $--color-666 !important;
+      color: $--color-666 !important;
+    }
+  }
+
+  .el-button--grey {
+    color: #fff !important;
+  }
+
+  .agent-nav-wrap .menu-list .menu-item.active,
+  .agent-nav-wrap .menu-list .menu-item:hover {
+    background-color: transparent !important;
+  }
+
+  .placeholder-img {
+    background-image: url('/src/assets/dark/placeholder-dark.png');
+  }
+
+  .register-box {
+    background: none !important;
+  }
+
+  .help-nav-wrap .el-menu {
+    .el-submenu__title,
+    .el-menu-item {
+      &:hover,
+      &.is-active {
+        background-color: transparent !important;
+      }
+    }
+
+    .el-menu-item-group .el-menu-item {
+      &:hover,
+      &.is-active {
+        background-color: transparent !important;
+      }
+    }
+  }
+
+  .register-box .register-wrap-content-left > div {
+    box-shadow: none !important;
+  }
+
+  .bank-card-list-wrap.isCenter .el-form {
+    .el-input__inner {
+      background-color: $--color-000 !important;
+    }
+  }
+
+  .el-notification {
+    background-color: $--color-232323 !important;
+    border-color: $--color-232323 !important;
+
+    &__title {
+      color: $--color-fff !important;
+    }
+
+    &__content {
+      color: $--color-fff !important;
+    }
+  }
+
+  .chip.selected::after {
+    box-shadow: 0px 4px 8px 0px rgba(255, 255, 255, 0.4);
+  }
+}
+
+:root {
+  .dark #app,
+  [theme-dark='true'] {
+    --dark-theme-color: #{$--dark-theme-color};
+    --bg-color-fff: #{$--dark-theme-color};
+    --bg-color-f5f5f5: #{$--dark-theme-color};
+    --bg-color-header: #{$--color-191919};
+    --bg-color-footer: #{$--color-222423};
+    --bg-color-BLIZZWIN优势: #{$--color-191919};
+    --dark-font-color-000: #000;
+    --font-color-000: #{$--color-fff};
+    --font-color-333: #{$--color-fff};
+    --font-color-666: #{$--color-fff};
+    --font-color-070707: #{$--color-fff};
+    --font-color-desc: #{$--color-fff};
+    --font-color-2c3e50: #{$--color-fff};
+    --bg-color-e3e3e3: #{$--color-191919};
+    --bg-color-e4e7ed: #{$--color-232523};
+    --font-color-0a0a0a: #{$--color-fff};
+    --border-color-e4e7ed: #{$--color-232523};
+    --arrow-color: #{$--color-fff};
+    --font-color-929292: #{$--color-fff};
+    --bg-color-43535d: #{$--color-232523};
+    --border-color-e5e5e5: #{$--color-414141};
+    --border-color-efefef: #666;
+    --border-color-d8d8d8: #666;
+    --bg-color-000-6: #{$--color-232523};
+    --bg-color-222930: #{$--dark-theme-color};
+    --bg-color-2C3239: #{$--color-141414};
+    --bg-color-F2F3F4: #{$--color-191919};
+    --bg-color-f9f9f9: #{$--dark-theme-color};
+    --dark-bg-color-232323: #{$--color-232323};
+    --popper-arrow-color: #{$--color-232323};
+    --bg-color-ecf0f6: #{$--color-000};
+    --font-color-222930: #{$--color-fff};
+    --border-color-e2e2e2: #{$--color-666};
+    --block-border-color: #{$--color-666};
+    --center-title-border-color-e2e2e2: #{$--color-666};
+    --border-color-000-2: #{$--color-666};
+    --dialog-background-color: #{$--color-232323};
+    --dark-table-th-bg-color: #{$--color-232323};
+    --td-bg-color: #{$--dark-theme-color};
+    --bg-color-efefef: #{$--color-191919};
+    --loading-mask-bg: rgba(0, 0, 0, 0.6);
+    --bg-color-ececec: #{$--color-232523};
+    --selected-bg-color: #{$--color-232323};
+    --dark-color-666: #{$--color-666};
+    --font-color-404040: #{$--color-fff};
+    --border-color-222930: #{$--color-666};
+    --border-color-fff: #{$--color-666};
+    --dark-bg-color-333: #{$--color-333};
+    --border-color-e6ecf1: #{$--color-666};
+    --dark-tr-hover-bg-color: rgba(255, 255, 255, 0.05);
+    --dark-fixed-td-border-color: rgba(255, 255, 255, 0.01);
+    --font-color-0C0C0C: #{$--color-fff};
+    --font-color-bdbdbd: #{$--color-fff};
+    --dark-theme-input-disable-bg: #232523;
+    --dark-theme-input-disable-border-color: #333;
+    --dark-theme-input-disable-font-color: #999;
+    --dark-theme-border-fff-1: rgba(255, 255, 255, 0.1);
+    --font-color-000-4: #{$--color-fff};
+    --dark-bg-color-fff: #{$--color-fff};
+    --dark-color-000: #{$--color-000};
+    --dark-bg-color-191919: #{$--color-191919};
+    --border-color-000: #{$--color-fff};
+    --bg-color-efefef: #{$--color-2c2c2c};
+    --bg-color-f3f3f3: rgba(255, 255, 255, 0.1);
+    --font-color-606266: #{$--color-fff};
+    --dark-color-fff: #{$--color-fff};
+    --font-color-2b2b2b: #{$--color-fff};
+    --font-color-656565: #{$--color-fff};
+    --dark-theme-color-2c2c2c: #{$--color-2c2c2c};
+    --fill-color-43535D: #{$--color-fff};
+    --main-bg-color-fff: #{$--dark-theme-color};
+    --bg-color-f7f7f7: #{$--color-191919};
+    --rank-table-bg: #{$--color-191919};
+    --rank-head-bg-color-f7f7f7: #{$--color-191919};
+  }
+}

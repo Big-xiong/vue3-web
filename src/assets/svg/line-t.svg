@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="102px" viewBox="0 0 20 102" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>上</title>
+    <g id="一级页面" stroke="none" stroke-width="1" fill-rule="evenodd">
+        <g id="首页_棋牌游戏" transform="translate(-835.000000, -1626.000000)" fill-rule="nonzero">
+            <g id="编组-13" transform="translate(0.000000, 1414.000000)">
+                <g id="上" transform="translate(835.000000, 212.000000)">
+                    <g id="编组-7" transform="translate(0.000000, 17.000000)">
+                        <polygon id="直线" points="10.5 0 10.5 77 9.5 77 9.5 0"></polygon>
+                        <polygon id="直线-2" points="19.5 39 19.5 84 18.5 84 18.5 39"></polygon>
+                        <polygon id="直线-2备份" points="1 39 1 84 0 84 0 39"></polygon>
+                    </g>
+                    <path d="M13,2 L13,8 L7,8 L7,2 L13,2 Z M12,3 L8,3 L8,7 L12,7 L12,3 Z" id="矩形" transform="translate(10.000000, 5.000000) rotate(45.000000) translate(-10.000000, -5.000000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
